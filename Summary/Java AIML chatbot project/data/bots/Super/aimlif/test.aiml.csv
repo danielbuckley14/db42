@@ -1,0 +1,36 @@
+0,^ MAKE A BOOKING,*,*,Okay what day do you wish to book for?,test.aiml
+1, MAKE A BOOKING ^,*,*,Okay what day do you wish to book for?,test.aiml
+2,* MAKE A BOOKING *,*,*,Okay what day do you wish to book for?,test.aiml
+3, MONDAY ^,*,*, We have three available times on Monday One O'clock Four O'clock and Six O'clock ,test.aiml
+4, ^ MONDAY ^,*,*, We have three available times on Monday One O'clock Four O'clock and Six O'clock ,test.aiml
+5, * MONDAY *,*,*, We have three available times on Monday One O'clock Four O'clock and Six O'clock ,test.aiml
+6, TUESDAY ^,*,*, We have three available times on Tuesday One O'clock Four O'clock and Six O'clock ,test.aiml
+7, ^ TUESDAY,*,*, We have three available times on Tuesday One O'clock Four O'clock and Six O'clock,test.aiml
+8, * TUESDAY *,*,*, We have three available times on Tuesday One O'clock Four O'clock and Six O'clock,test.aiml
+9, WEDNESDAY ^,*,*, We have three available times on Wednesday One O'clock Four O'clock and Six O'clock ,test.aiml
+10, ^ WEDNESDAY,*,*, We have three available times on Wednesday One O'clock Four O'clock and Six O'clock ,test.aiml
+11, * WEDNESDAY *,*,*, We have three available times on Wednesday One O'clock Four O'clock and Six O'clock ,test.aiml
+12,THURSDAY ^,*,*, We have three available times on Thursday One O'clock Four O'clock and Six O'clock ,test.aiml
+13,^ THURSDAY ,*,*, We have three available times on Thursday One O'clock Four O'clock and Six O'clock ,test.aiml
+14,* THURSDAY *,*,*, We have three available times on Thursday One O'clock Four O'clock and Six O'clock ,test.aiml
+15,FRIDAY ^,*,*, We have three available times on Friday One O'clock Four O'clock and Six O'clock ,test.aiml
+16,^ FRIDAY ,*,*, We have three available times on Friday One O'clock Four O'clock and Six O'clock ,test.aiml
+17,* FRIDAY *,*,*, We have three available times on Friday One O'clock Four O'clock and Six O'clock ,test.aiml
+18,SATURDAY ^,*,*, We have three available times on Saturday One O'clock Four O'clock and Six O'clock ,test.aiml
+19,^ SATURDAY ,*,*, We have three available times on Saturday One O'clock Four O'clock and Six O'clock ,test.aiml
+20,* SATURDAY *,*,*, We have three available times on Saturday One O'clock Four O'clock and Six O'clock ,test.aiml
+22,SUNDAY ^,*,*, We have three available times on Sunday One O'clock Four O'clock and Six O'clock ,test.aiml
+22, ^ Sunday ,*,*, We have three available times on Sunday One O'clock Four O'clock and Six O'clock ,test.aiml
+23, * Sunday *,*,*, We have three available times on Sunday One O'clock Four O'clock and Six O'clock ,test.aiml
+24,ONE ^,*,*,Great! What is the name for the booking at <set name = "time-of-day"> one O'clock </set>,test.aiml
+25,^ ONE ,*,*,Great! What is the name for the booking at <set name = "time-of-day"> one O'clock </set>,test.aiml
+26,* ONE *,*,*,Great! What is the name for the booking at <set name = "time-of-day"> one O'clock </set>,test.aiml
+27,FOUR ^,*,*,Great! What is the name for the booking at <set name = "time-of-day"> four O'clock </set>,test.aiml
+28,^ FOUR,*,*,Great! What is the name for the booking at <set name = "time-of-day"> four O'clock </set>,test.aiml
+29,* FOUR *,*,*,Great! What is the name for the booking at <set name = "time-of-day"> four O'clock </set>,test.aiml
+30,SIX ^,*,*,Great! What is the name for the booking at <set name = "time-of-day"> six O'clock </set>,test.aiml
+31,^ SIX,*,*,Great! What is the name for the booking at <set name = "time-of-day"> six O'clock </set>,test.aiml
+32,* SIX *,*,*,Great! What is the name for the booking at <set name = "time-of-day"> six O'clock </set>,test.aiml
+33,*,*,*,Perfect see you then <star/>!,test.aiml
+34,My name is *,*,*,Perfect see you then <star/>!,test.aiml
+35,* is my name,*,*,Perfect see you then <star/>!,test.aiml

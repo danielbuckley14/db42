@@ -1,0 +1,242 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<aiml version="1.0.1" encoding = "UTF-8"?>
+   <category>
+      <pattern> ^ MAKE A BOOKING </pattern>
+      <template>
+         Okay, what day do you wish to book for?
+      </template>
+    </category>
+    <category>
+      <pattern>  MAKE A BOOKING ^</pattern>
+      <template>
+         Okay, what day do you wish to book for?
+      </template>
+    </category>
+    <category>
+      <pattern> * MAKE A BOOKING *</pattern>
+      <template>
+         Okay, what day do you wish to book for?
+      </template>
+    </category>
+  
+    <category>  
+      <pattern> MONDAY ^</pattern>
+      
+      <template><set name = "day-of-week"> Monday </set>We have three available times on Monday One O'clock Four O'clock and Six O'clock </template>
+    
+   </category>
+   <category>
+    <pattern> ^ MONDAY </pattern>
+      
+      <template><set name = "day-of-week"> Monday </set>We have three available times on Monday One O'clock Four O'clock and Six O'clock </template>
+    
+   </category>
+
+   <category>
+    <pattern> * MONDAY *</pattern>
+      
+      <template><set name = "day-of-week"> Monday </set>We have three available times on Monday One O'clock Four O'clock and Six O'clock </template>
+    
+   </category>
+
+   <category>  
+        <pattern> TUESDAY ^</pattern>
+        
+      <template>We have three available times on Tuesday One O'clock Four O'clock and Six O'clock <set name = "day-of-week"> Tuesday </set></template>
+   </category>
+  
+  <category>  
+        <pattern>^ TUESDAY </pattern>
+        
+      <template>We have three available times on Tuesday One O'clock Four O'clock and Six O'clock <set name = "day-of-week"> Tuesday </set></template>
+   </category>
+
+   <category>  
+        <pattern>* TUESDAY *</pattern>
+        
+      <template>We have three available times on Tuesday One O'clock Four O'clock and Six O'clock <set name = "day-of-week"> Tuesday </set></template>
+   </category>
+
+
+   <category>  
+        <pattern> WEDNESDAY ^</pattern>
+        
+      <template>We have three available times on Wednesday One O'clock Four O'clock and Six O'clock <set name = "day-of-week">Wednesday</set></template>
+   </category>
+
+    <category>  
+        <pattern>^ WEDNESDAY </pattern>
+        
+      <template>We have three available times on Wednesday One O'clock Four O'clock and Six O'clock <set name = "day-of-week">Wednesday</set></template>
+   </category>
+
+   <category>  
+        <pattern>* WEDNESDAY *</pattern>
+        
+      <template>We have three available times on Wednesday One O'clock Four O'clock and Six O'clock <set name = "day-of-week">Wednesday</set></template>
+   </category>
+
+   <category>  
+        <pattern> THURSDAY ^</pattern>
+        
+      <template>We have three available times on Thursday One O'clock Four O'clock and Six O'clock <set name = "day-of-week"> Thursday </set></template>
+   </category>
+
+  <category>  
+        <pattern>^ THURSDAY </pattern>
+        
+      <template>We have three available times on Thursday One O'clock Four O'clock and Six O'clock <set name = "day-of-week"> Thursday </set></template>
+   </category>
+
+   <category>  
+        <pattern>* THURSDAY *</pattern>
+        
+      <template>We have three available times on Thursday One O'clock Four O'clock and Six O'clock <set name = "day-of-week"> Thursday </set></template>
+   </category>
+
+
+   <category>  
+        <pattern>FRIDAY ^</pattern>
+        
+      <template>We have three available times on Friday One O'clock Four O'clock and Six O'clock <set name = "day-of-week"> Friday </set></template>
+   </category>
+
+     <category>  
+        <pattern>^ FRIDAY </pattern>
+        
+      <template>We have three available times on Friday One O'clock Four O'clock and Six O'clock</template>
+   </category>
+   <category>  
+        <pattern>* FRIDAY *</pattern>
+        
+      <template>We have three available times on Friday One O'clock Four O'clock and Six O'clock <set name = "day-of-week"> Friday </set></template>
+   </category>
+
+
+   <category>  
+        <pattern> SATURDAY ^</pattern>
+        
+      <template>We have three available times on Saturday One O'clock Two O'clock and Six O'clock </template>
+   </category>
+
+  <category>  
+        <pattern> ^ SATURDAY </pattern>
+        
+      <template>We have three available times on Saturday One O'clock Two O'clock and Six O'clock </template>
+   </category>
+    <category>  
+        <pattern> * SATURDAY *</pattern>
+        
+      <template>We have three available times on Saturday One O'clock Two O'clock and Six O'clock </template>
+   </category>
+
+   <category>  
+        <pattern> SUNDAY ^</pattern>
+        
+      <template>We have three available times on Sunday One O'clock Four O'clock and Six O'clock </template>
+   </category>
+
+    <category>  
+        <pattern>^ SUNDAY </pattern>
+        
+      <template>We have three available times on Sunday One O'clock Four O'clock and Six O'clock</template>
+   </category>
+
+   <category>  
+        <pattern>* SUNDAY *</pattern>
+        
+      <template>We have three available times on Sunday One O'clock Four O'clock and Six O'clock</template>
+   </category>
+
+   <category>  
+        <pattern> ONE ^ </pattern>
+      <template>
+        Great! What is the name for the booking at <set name = "time-of-day"> one O'clock </set>
+      </template>
+      
+   </category>
+
+   <category>  
+        <pattern> ^ONE  </pattern>
+      <template>
+        Great! What is the name for the booking at <set name = "time-of-day"> one O'clock </set>
+      </template>
+    
+    <category>  
+        <pattern> * ONE *  </pattern>
+      <template>
+        Great! What is the name for the booking at <set name = "time-of-day"> one O'clock </set>
+      </template>
+      
+   </category>
+
+   <category>  
+        <pattern>^ FOUR </pattern>
+      <template>
+        Great! What is the name for the booking at <set name = "time-of-day"> four O'clock </set>
+      </template>
+      
+   </category>
+
+   <category>  
+        <pattern> FOUR ^ </pattern>
+      <template>
+        Great! What is the name for the booking at <set name = "time-of-day"> four O'clock </set>
+      </template>
+      
+   </category>
+
+   <category>  
+        <pattern> * FOUR * </pattern>
+      <template>
+        Great! What is the name for the booking at <set name = "time-of-day"> four O'clock </set>
+      </template>
+      
+   </category>
+
+   <category>  
+        <pattern>^ SIX </pattern>
+      <template>
+        Great! What is the name for the booking at <set name = "time-of-day"> six O'clock </set>
+      </template>
+      
+   </category>
+  <category>  
+        <pattern> SIX ^</pattern>
+      <template>
+        Great! What is the name for the booking at <set name = "time-of-day"> six O'clock </set>
+      </template>
+      
+   </category>
+
+    <category>  
+        <pattern>* SIX *</pattern>
+      <template>
+        Great! What is the name for the booking at <set name = "time-of-day"> six O'clock </set>
+      </template>
+      
+   </category>
+   <category>
+
+      <pattern>*</pattern>
+      <template>
+        Perfect see you then <star/>!
+         <!-- Perfect see you on <get name="day-of-week"/> at <get name="time-of-day"/> <star/> -->
+      </template>
+    </category>
+    <category>
+      
+      <pattern>My name is *</pattern>
+      <template>
+        Perfect see you then <star/>!
+         <!-- Perfect see you on <get name="day-of-week"/> at <get name="time-of-day"/> <star/> -->
+      </template>
+    </category>
+    <pattern> * is my name</pattern>
+      <template>
+        Perfect see you then <star/>!
+         <!-- Perfect see you on <get name="day-of-week"/> at <get name="time-of-day"/> <star/> -->
+      </template>
+    </category>
+
+</aiml>
